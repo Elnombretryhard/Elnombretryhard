@@ -1,0 +1,62 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    padding: 10px;
+    color: brown;
+}
+
+
+
+button {
+    color: magenta;
+    width: 80px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: yellow;
+    font-size: xx-large;
+    
+}
+
+#Si {
+    grid-row:  5;
+    grid-column: 5;
+}
+
+#No {
+    grid-row: 5;
+    grid-column: 6;
+    
+}
+
+section {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    width: 1200px;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+}
+
+body {
+    max-width: 1200px;
+    max-height: 673px;
+    margin: 0 auto;
+    background-image: url(/desktop-wallpaper-cr-on-ig-hello-kitty-hello-kitty-iphone-hello-kitty-cute-hello-kitty-laptop.jpg);
+    background-repeat: no-repeat; 
+    background-position: center center; 
+     background-size: cover;
+    
+}
+
+p {
+    font-size: xx-large;
+    justify-content: center;
+    color: black;
+}
